@@ -1,0 +1,264 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foundation | Demo</title>
+  <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"> <!-- CSS Foundation Framework -->
+</head>
+
+<body>
+
+  <div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+      <!-- Columna izquierda -->
+      <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+        <div class="row column">
+          <br>
+          <img class="thumbnail" src="assets/img/profile.jpg">
+          <h5><strong>Juanpis González</strong></h5>
+          <p>Bienvenidos al perfil más play de Colombia 😎<br>
+          Uribista de mano firme y corazón grande. <br>
+          CEO de @wayuugo
+          <p><strong>Mi redes 👇:</strong></p>
+          <p>@juanpisgonzalez</p>
+        </div>
+      </div>
+
+      <div class="off-canvas-content" data-off-canvas-content>
+
+        <!-- Componente para desplegar columna de izquierda en pantallas tamanos pequenos -->
+        <div class="title-bar hide-for-large">
+          <div class="title-bar-left">
+            <button class="menu-icon" type="button" data-open="my-info"></button>
+            <span class="title-bar-title">Juanpis González</span>
+          </div>
+        </div>
+
+        <!--  Row banner -->
+        <div class="callout alert">
+          <div class="row column">
+            <h1>Hola a tod@s los mantecos de Colombia!</h1>
+            <p class="lead">Aquí les comparto las fotos más cooool de mis viajes marica, sólo elite!</p>
+          </div>
+        </div>
+
+        <!-- Rows and Columns -->
+        <div class="row small-up-2 medium-up-3 large-up-4">
+          <div class="column">
+            <img class="thumbnail" src="assets/img/1.jpg">
+            <h5>Ahhh!</h5>
+          </div>
+          <div class="column">
+            <img class="thumbnail" src="assets/img/2.jpg">
+            <h5>iPhone 12 Pro Max.</h5>
+          </div>
+          <div class="column">
+            <img class="thumbnail" src="assets/img/3.jpg">
+            <h5>Love..  </h5>
+          </div>
+          <div class="column">
+            <img class="thumbnail" src="assets/img/4.jpg">
+            <h5>Mis nuevas gafas Gucci!</h5>
+          </div>
+          <div class="column">
+            <img class="thumbnail" src="assets/img/5.jpg">
+            <h5>Paris, Paris!</h5>
+          </div>
+          <div class="column">
+            <img class="thumbnail" src="assets/img/6.jpg">
+            <h5>Regalando a los asalareados y garras.. iugh!</h5>
+          </div>
+          <div class="column">
+            <img class="thumbnail" src="assets/img/7.jpg">
+            <h5>Bath time!</h5>
+          </div>
+          <div class="column">
+            <img class="thumbnail" src="assets/img/8.jpg">
+            <h5>JP-Beer, you know ;)</h5>
+          </div>
+          <div class="column">
+            <img class="thumbnail" src="assets/img/9.jpg">
+            <h5>Limonade =P</h5>
+          </div>
+          <div class="column">
+            <img class="thumbnail" src="assets/img/10.jpg">
+            <h5>Día de carritos, super!</h5>
+          </div>
+          <div class="column">
+            <img class="thumbnail" src="https://placehold.it/550x550">
+            <h5>My Site</h5>
+          </div>
+          <div class="column">
+            <img class="thumbnail" src="https://placehold.it/550x550">
+            <h5>My Site</h5>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Botones -->
+        <div class="row">
+          <div class="column">
+            <p><strong>Botones:</strong></p>
+            <button class="button">Simple Button</a>
+            <button class="success button">Success Button</a>
+            <button class="alert button">Alert Button</a>
+            <button class="secondary button">Secondary Button</a>
+            <button class="button disabled" disabled>Disabled Button</a>
+          </div>
+          <div class="column">
+            <button class="button tiny">Tiny Button</a>
+            <button class="button small">Small Button</a>
+            <button class="button">Normal Button</a>
+            <button class="button large">Large Button</a>
+            <button class="button expanded">Expanded Button</a>
+          </div>
+          <div class="column">
+            <button class="button hollow">Hollow Button</a>
+            <button class="success button hollow">Hollow Button</a>
+            <button class="alert button hollow">Hollow Button</a>
+            <button class="secondary button hollow">Hollow Button</a>
+            <button class="button disabled hollow" disabled>Hollow Button</a>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Fieldset -->
+        <div class="row">
+          <div class="column">
+            <p><strong>fieldset:</strong></p>
+            <fieldset class="fieldset">
+              <legend>A Fieldset: checkbox</legend>
+              <input type="checkbox"><label>Checkbox</label>
+              <input type="checkbox"><label>Checkbox</label>
+              <input type="checkbox"><label>Checkbox</label>
+            </fieldset>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Switch -->
+        <div class="row">
+          <div class="column">
+            <p><strong>Switch:</strong></p>
+            <div class="switch">
+              <input class="switch-input" id="mySwitch" type="checkbox" name="exampleSwitch">
+              <label class="switch-paddle" for="mySwitch">
+                <span class="show-for-sr">Enabled</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Slider -->
+        <div class="row">
+          <div class="column">
+            <p><strong>Slider:</strong></p>
+            <div class="slider" data-slider data-initial-start='0' data-end='20'>
+    				  <span class="slider-handle"  data-slider-handle role="slider" tabindex="1"></span>
+    				  <span class="slider-fill" data-slider-fill></span>
+    				  <input type="hidden">
+    				</div>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Insignias -->
+        <div class="row">
+          <div class="column">
+            <p><strong>Insignias:</strong></p>
+            <span class="primary badge">1</span>
+            <span class="secondary badge">2</span>
+            <span class="success badge">3</span>
+            <span class="alert badge">A</span>
+            <span class="warning badge">B</span>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Barras de progrso -->
+        <div class="row">
+          <div class="column">
+              <p><strong>Barras de progreso:</strong></p>
+              <div class="success progress" role="progressbar">
+                <div class="progress-meter" style="width: 25%">
+                  <p class="progress-meter-text">25%</p>
+                </div>
+              </div>
+          </div>
+          <div class="column">
+              <div class="alert progress" role="progressbar">
+                <div class="progress-meter" style="width: 60%">
+                  <p class="progress-meter-text">60%</p>
+                </div>
+              </div>
+          </div>
+          <div class="column">
+              <div class="warning progress" role="progressbar">
+                <div class="progress-meter" style="width: 90%">
+                  <p class="progress-meter-text">90%</p>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Citaciones -->
+        <div class="row">
+          <div class="column">
+            <p><strong>Citaciones:</strong></p>
+            <blockquote>
+                <i>"A caballo regalado se lo lleva la corriente.."</i>
+                <cite>Quimi</cite>
+            </blockquote>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="medium-6 columns">
+            <h3>Contactenme por aquí:</h3>
+            <ul class="menu">
+              <li><a href="https://www.facebook.com">Facebook</a></li>
+            </ul>
+          </div>
+          <div class="medium-6 columns">
+            <label>Nombre
+              <input type="text" placeholder="Nombre">
+            </label>
+            <label>Email
+              <input type="text" placeholder="Email">
+            </label>
+            <label>
+              Mensaje
+              <textarea placeholder="Escribe tu mensaje aquí"></textarea>
+            </label>
+            <input type="submit" class="button expanded" value="Submit">
+          </div>
+        </div>
+
+        <hr>
+
+      </div>
+    </div>
+  </div>
+  <!-- Javascript -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+
+</body>
+</html>
